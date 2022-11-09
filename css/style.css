@@ -1,0 +1,12 @@
+/*back*/
+body {
+  background-color: #888888;
+}
+
+/*flex_div*/
+.flex_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
