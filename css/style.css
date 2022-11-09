@@ -9,4 +9,38 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 50px;
+}
+.image {
+  margin-left: 200px;
+}
+/*picture*/
+.my_picture {
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+/*Имя*/
+.my_name {
+  margin: 0 auto;
+  height: 600px;
+  width: 800px;
+}
+
+h1{
+  margin-left: 200px;
+  margin-top: 150px;
+  color: aqua;
+  background-color: azure;
+}
+
+/*Дата рождения*/
+.data {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+.r {
+  font-size: 50px;
+  color: blue;
 }
