@@ -19,6 +19,7 @@ body {
   width: 800px;
   height: 600px;
   margin: 0 auto;
+  background-color: deeppink;
 }
 
 /*Имя*/
@@ -26,6 +27,7 @@ body {
   margin: 0 auto;
   height: 600px;
   width: 800px;
+  background-color: indigo;
 }
 
 h1{
@@ -40,7 +42,25 @@ h1{
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
+}
 .r {
   font-size: 50px;
   color: blue;
+  background-color: darkorchid;
+  font-family: Arial;
+}
+
+.vuz {
+  height: 600px;
+  width: 800px;
+  font-size: 20px;
+  margin-left: 200px;
+  margin-top: 350px;
+  background-color: goldenrod;
+  font-style: italic;
+}
+
+.group {
+  background-color: springgreen;
+  font-style: revert;
 }
