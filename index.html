@@ -7,7 +7,8 @@
   </head>
   <body>
     <div class="flex_div">
-      <div class="my_picture">
+      <div class="my_picture"
+           onclick="clickHandler()">
         <img class ="image" src="docs/picture.png" alt="Андрей Барышев">
       </div>
       <div class="my_name">
@@ -29,3 +30,9 @@
     </div>
   </body>
 </html>
+
+<script>
+  function clickHandler() {
+    alert('you are awesome, man. You have just clicked on my face.')
+  }
+</script>
