@@ -7,9 +7,11 @@
   </head>
   <body>
     <div class="flex_div">
-      <div class="my_picture"
-           onclick="clickHandler()">
-        <img class ="image" src="docs/picture.png" alt="Андрей Барышев">
+      <div class="my_picture">
+        <img class ="image" src="docs/picture.png" alt="Андрей Барышев"
+             onclick="clickHandler()"
+             onmouseenter="moveEnterHandler()"
+             onmouseout="moveOutHandler()">
       </div>
       <div class="my_name">
         <h1>Андрей</h1>
@@ -34,5 +36,11 @@
 <script>
   function clickHandler() {
     alert('you are awesome, man. You have just clicked on my face.')
+  }
+  function moveEnterHandler(){
+    console.log("Ай, что это?")
+  }
+  function moveOutHandler(){
+    console.log("А, это курсор.")
   }
 </script>
