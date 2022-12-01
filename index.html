@@ -7,6 +7,7 @@
   </head>
   <body>
     <div class="flex_div">
+      <input onchange="changeHandler(event)">
       <div class="my_picture">
         <img class ="image" src="docs/picture.png" alt="Андрей Барышев"
              onclick="clickHandler()"
@@ -34,7 +35,7 @@
 </html>
 
 <script>
-  function clickHandler() {
+  function clickHandler(text = 'you are awesome, man. You have just clicked on my face.') {
     alert('you are awesome, man. You have just clicked on my face.')
   }
   function moveEnterHandler(){
@@ -42,5 +43,11 @@
   }
   function moveOutHandler(){
     console.log("А, это курсор.")
+  }
+  function changeHandler(event){
+    let text = event.target.value
+    console.log(event, text)
+    let element = document.getElementsByClassName("image")
+    alert("Значение в поле было изменено на " + text)
   }
 </script>
